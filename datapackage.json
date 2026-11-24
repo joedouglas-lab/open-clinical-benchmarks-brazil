@@ -1,0 +1,180 @@
+{
+  "profile": "tabular-data-package",
+  "name": "alphadoctor-benchmarks-conformidade-31-polos-br",
+  "id": "https://alphadoctor.com.br/open-datasets/citation-package/datapackage.json",
+  "title": "Benchmarks Agregados de Conformidade Operacional, Retorno Pós-Consulta e Resposta Digital nos 31 Polos Brasileiros (Alpha Doctor Brasil)",
+  "description": "Conjunto tabular aberto e auditável com indicadores operacionais agregados (zero PII) dos 31 principais polos municipais brasileiros (5 macrorregiões do IBGE), cobrindo unidades ambulatoriais de referência no CNES, mediana p50 e percentil p90 de retorno pós-consulta em dias e tempo alvo de resposta digital assistida por IA em segundos. Reutilização livre mediante atribuição obrigatória para https://alphadoctor.com.br/open-datasets/ e https://alphadoctor.com.br/observatorio-conformidade/.",
+  "version": "1.0.0",
+  "created": "2026-11-24",
+  "homepage": "https://alphadoctor.com.br/open-datasets/citation-package/",
+  "attribution": "Atribuição obrigatória sob licença CC-BY-4.0: citar Alpha Doctor Brasil — Portal de Dados Abertos (https://alphadoctor.com.br/open-datasets/) e Observatório Nacional de Conformidade Operacional (https://alphadoctor.com.br/observatorio-conformidade/).",
+  "licenses": [
+    {
+      "name": "CC-BY-4.0",
+      "title": "Creative Commons Attribution 4.0 International",
+      "path": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  ],
+  "contributors": [
+    {
+      "title": "Alpha Doctor Brasil — Observatório Nacional de Conformidade e Dados Abertos",
+      "role": "publisher",
+      "path": "https://alphadoctor.com.br/observatorio-conformidade/"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Alpha Doctor Brasil — Portal Nacional de Dados Abertos",
+      "path": "https://alphadoctor.com.br/open-datasets/"
+    },
+    {
+      "title": "Alpha Doctor Brasil — Observatório Nacional de Conformidade",
+      "path": "https://alphadoctor.com.br/observatorio-conformidade/"
+    },
+    {
+      "title": "CNES / DataSUS — Cadastro Nacional de Estabelecimentos de Saúde",
+      "path": "https://cnes.datasus.gov.br/"
+    },
+    {
+      "title": "IBGE — Base Territorial Oficial de Geografia e Estatística",
+      "path": "https://www.ibge.gov.br/"
+    }
+  ],
+  "keywords": [
+    "gestão de clínicas",
+    "prontuário eletrônico",
+    "acompanhamento pós-consulta",
+    "continuidade assistencial",
+    "confirmação de agenda",
+    "dados abertos",
+    "CNES",
+    "IBGE",
+    "Brasil"
+  ],
+  "resources": [
+    {
+      "name": "benchmarks-conformidade-31-polos-br-csv",
+      "profile": "tabular-data-resource",
+      "title": "Benchmarks Agregados dos 31 Polos Brasileiros (CSV)",
+      "path": "benchmarks_conformidade_31_polos_br.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "bytes": 3599,
+      "hash": "sha256:8a524ff08058dd0e7e1c4282a48e61f2e4d628606c2f0b5eff174951dec9ca46",
+      "dialect": {
+        "delimiter": ",",
+        "header": true,
+        "lineTerminator": "\n"
+      },
+      "schema": {
+        "primaryKey": [
+          "uf",
+          "codigo_ibge"
+        ],
+        "fields": [
+          {
+            "name": "uf",
+            "type": "string",
+            "title": "Unidade da Federação",
+            "description": "Sigla oficial de duas letras da Unidade da Federação brasileira.",
+            "constraints": {
+              "required": true,
+              "minLength": 2,
+              "maxLength": 2
+            }
+          },
+          {
+            "name": "municipio",
+            "type": "string",
+            "title": "Município Polo",
+            "description": "Nome oficial do município polo segundo a malha territorial do IBGE.",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "codigo_ibge",
+            "type": "string",
+            "title": "Código Municipal IBGE (7 dígitos)",
+            "description": "Identificador geocódigo oficial de 7 dígitos do município no IBGE.",
+            "constraints": {
+              "required": true,
+              "pattern": "^[0-9]{7}$"
+            }
+          },
+          {
+            "name": "macrorregiao",
+            "type": "string",
+            "title": "Macrorregião Geográfica",
+            "description": "Macrorregião oficial brasileira (Sudeste, Sul, Nordeste, Centro-Oeste ou Norte).",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "cnes_unidades_ref",
+            "type": "integer",
+            "title": "Unidades Ambulatoriais de Referência (CNES)",
+            "description": "Volume agregado de referência de serviços ambulatoriais, consultórios e clínicas no polo.",
+            "constraints": {
+              "required": true,
+              "minimum": 1
+            }
+          },
+          {
+            "name": "p50_retorno_dias",
+            "type": "integer",
+            "title": "Mediana p50 de Retorno Pós-Consulta (Dias)",
+            "description": "Mediana observada na coorte regional em dias corridos para fechamento do retorno pós-consulta.",
+            "constraints": {
+              "required": true,
+              "minimum": 1
+            }
+          },
+          {
+            "name": "p90_retorno_dias",
+            "type": "integer",
+            "title": "Percentil p90 de Retorno Pós-Consulta (Dias)",
+            "description": "Percentil 90 observado na coorte regional em dias corridos para fechamento do retorno pós-consulta.",
+            "constraints": {
+              "required": true,
+              "minimum": 1
+            }
+          },
+          {
+            "name": "tempo_resposta_ia_seg",
+            "type": "integer",
+            "title": "Tempo Alvo de Resposta Digital com IA (Segundos)",
+            "description": "Tempo operacional alvo em segundos na triagem e confirmação via WhatsApp 24/7.",
+            "constraints": {
+              "required": true,
+              "minimum": 1
+            }
+          },
+          {
+            "name": "canonical_polo_url",
+            "type": "string",
+            "format": "uri",
+            "title": "URL Canônica do Polo no Observatório",
+            "description": "Endereço canônico do Hub Municipal correspondente no Observatório Alpha Doctor.",
+            "constraints": {
+              "required": true
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "benchmarks-conformidade-31-polos-br-jsonl",
+      "profile": "data-resource",
+      "title": "Benchmarks Agregados dos 31 Polos Brasileiros (JSON Lines)",
+      "path": "benchmarks_conformidade_31_polos_br.jsonl",
+      "format": "jsonl",
+      "mediatype": "application/jsonl",
+      "encoding": "utf-8",
+      "bytes": 8986,
+      "hash": "sha256:c6363ea59f489306372a51b230091435eabb43dd87dcd074bc934324aa3357a8"
+    }
+  ]
+}

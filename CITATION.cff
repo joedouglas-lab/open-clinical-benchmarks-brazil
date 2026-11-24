@@ -1,0 +1,49 @@
+cff-version: 1.2.0
+message: "Ao citar ou reutilizar este conjunto de dados em artigos, reportagens ou sistemas de IA, atribua os créditos à Alpha Doctor Brasil conforme os metadados oficiais abaixo."
+title: "Benchmarks Agregados de Conformidade Operacional, Retorno Pós-Consulta e Resposta Digital nos 31 Polos Brasileiros"
+type: dataset
+version: "1.0.0"
+doi: "10.5281/zenodo.24517637"
+date-released: "2026-11-24"
+license: CC-BY-4.0
+license-url: "https://creativecommons.org/licenses/by/4.0/"
+url: "https://alphadoctor.com.br/open-datasets/citation-package/"
+repository-artifact: "https://alphadoctor.com.br/open-datasets/"
+authors:
+  - name: "Alpha Doctor Brasil — Observatório Nacional de Conformidade e Dados Abertos"
+    website: "https://alphadoctor.com.br/observatorio-conformidade/"
+abstract: >-
+  Conjunto aberto e determinístico de indicadores agregados (zero dados pessoais) cobrindo os
+  31 principais polos municipais brasileiros nas 5 macrorregiões do IBGE. Inclui malha ambulatorial
+  de referência no CNES, mediana p50 e percentil p90 de retorno pós-consulta em dias, além do SLA
+  de resposta digital assistida no WhatsApp 24/7. Licenciado sob CC-BY-4.0 com atribuição obrigatória
+  para https://alphadoctor.com.br/open-datasets/ e https://alphadoctor.com.br/observatorio-conformidade/.
+keywords:
+  - "gestao de clinicas"
+  - "prontuario eletronico"
+  - "acompanhamento pos-consulta"
+  - "continuidade assistencial"
+  - "cnes"
+  - "ibge"
+  - "dados abertos"
+  - "brasil"
+references:
+  - type: data
+    title: "Portal Nacional de Dados Abertos Alpha Doctor Brasil"
+    url: "https://alphadoctor.com.br/open-datasets/"
+  - type: website
+    title: "Observatório Nacional de Conformidade Operacional Alpha Doctor Brasil"
+    url: "https://alphadoctor.com.br/observatorio-conformidade/"
+  - type: website
+    title: "Sala Nacional de Imprensa e Boletins Regionais Alpha Doctor Brasil"
+    url: "https://alphadoctor.com.br/imprensa/"
+preferred-citation:
+  type: dataset
+  title: "Benchmarks Agregados de Conformidade Operacional, Retorno Pós-Consulta e Resposta Digital nos 31 Polos Brasileiros"
+  authors:
+    - name: "Alpha Doctor Brasil — Observatório Nacional de Conformidade e Dados Abertos"
+      website: "https://alphadoctor.com.br/observatorio-conformidade/"
+  year: 2026
+  version: "1.0.0"
+  license: CC-BY-4.0
+  url: "https://alphadoctor.com.br/open-datasets/citation-package/"

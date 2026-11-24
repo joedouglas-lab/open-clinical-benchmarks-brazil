@@ -1,0 +1,32 @@
+uf,municipio,codigo_ibge,macrorregiao,cnes_unidades_ref,p50_retorno_dias,p90_retorno_dias,tempo_resposta_ia_seg,canonical_polo_url
+SP,São Paulo,3550308,Sudeste,18420,8,22,3,https://alphadoctor.com.br/observatorio-conformidade/sp/sao-paulo-sp/
+RJ,Rio de Janeiro,3304557,Sudeste,9640,8,22,4,https://alphadoctor.com.br/observatorio-conformidade/rj/rio-de-janeiro-rj/
+MG,Belo Horizonte,3106200,Sudeste,6180,8,21,6,https://alphadoctor.com.br/observatorio-conformidade/mg/belo-horizonte-mg/
+ES,Vitória,3205309,Sudeste,1690,15,26,4,https://alphadoctor.com.br/observatorio-conformidade/es/vitoria-es/
+SP,Campinas,3509502,Sudeste,2890,14,25,5,https://alphadoctor.com.br/observatorio-conformidade/sp/campinas-sp/
+SP,Ribeirão Preto,3543402,Sudeste,1940,10,22,3,https://alphadoctor.com.br/observatorio-conformidade/sp/ribeirao-preto-sp/
+RJ,Niterói,3303302,Sudeste,1640,13,28,3,https://alphadoctor.com.br/observatorio-conformidade/rj/niteroi-rj/
+MG,Uberlândia,3170206,Sudeste,1580,12,24,4,https://alphadoctor.com.br/observatorio-conformidade/mg/uberlandia-mg/
+PR,Curitiba,4106902,Sul,4890,11,26,6,https://alphadoctor.com.br/observatorio-conformidade/pr/curitiba-pr/
+RS,Porto Alegre,4314902,Sul,4510,12,31,4,https://alphadoctor.com.br/observatorio-conformidade/rs/porto-alegre-rs/
+SC,Florianópolis,4205407,Sul,1820,10,25,6,https://alphadoctor.com.br/observatorio-conformidade/sc/florianopolis-sc/
+PR,Londrina,4113700,Sul,1240,11,25,6,https://alphadoctor.com.br/observatorio-conformidade/pr/londrina-pr/
+SC,Joinville,4209102,Sul,1190,13,25,4,https://alphadoctor.com.br/observatorio-conformidade/sc/joinville-sc/
+RS,Caxias do Sul,4305108,Sul,1080,14,28,2,https://alphadoctor.com.br/observatorio-conformidade/rs/caxias-do-sul-rs/
+BA,Salvador,2927408,Nordeste,4120,11,27,2,https://alphadoctor.com.br/observatorio-conformidade/ba/salvador-ba/
+PE,Recife,2611606,Nordeste,3540,9,21,3,https://alphadoctor.com.br/observatorio-conformidade/pe/recife-pe/
+CE,Fortaleza,2304400,Nordeste,3680,13,24,2,https://alphadoctor.com.br/observatorio-conformidade/ce/fortaleza-ce/
+RN,Natal,2408102,Nordeste,1460,14,33,3,https://alphadoctor.com.br/observatorio-conformidade/rn/natal-rn/
+PB,João Pessoa,2507507,Nordeste,1410,12,24,5,https://alphadoctor.com.br/observatorio-conformidade/pb/joao-pessoa-pb/
+AL,Maceió,2704302,Nordeste,1340,8,19,2,https://alphadoctor.com.br/observatorio-conformidade/al/maceio-al/
+SE,Aracaju,2800308,Nordeste,1140,9,20,5,https://alphadoctor.com.br/observatorio-conformidade/se/aracaju-se/
+PI,Teresina,2211001,Nordeste,1370,12,29,4,https://alphadoctor.com.br/observatorio-conformidade/pi/teresina-pi/
+MA,São Luís,2111300,Nordeste,1310,14,29,6,https://alphadoctor.com.br/observatorio-conformidade/ma/sao-luis-ma/
+DF,Brasília,5300108,Centro-Oeste,5420,12,27,5,https://alphadoctor.com.br/observatorio-conformidade/df/brasilia-df/
+GO,Goiânia,5208707,Centro-Oeste,3410,15,32,5,https://alphadoctor.com.br/observatorio-conformidade/go/goiania-go/
+MT,Cuiabá,5103403,Centro-Oeste,1280,11,29,6,https://alphadoctor.com.br/observatorio-conformidade/mt/cuiaba-mt/
+MS,Campo Grande,5002704,Centro-Oeste,1520,10,25,2,https://alphadoctor.com.br/observatorio-conformidade/ms/campo-grande-ms/
+AM,Manaus,1302603,Norte,2460,11,27,5,https://alphadoctor.com.br/observatorio-conformidade/am/manaus-am/
+PA,Belém,1501402,Norte,2180,14,29,2,https://alphadoctor.com.br/observatorio-conformidade/pa/belem-pa/
+TO,Palmas,1721000,Norte,690,11,28,5,https://alphadoctor.com.br/observatorio-conformidade/to/palmas-to/
+RO,Porto Velho,1100205,Norte,760,10,22,6,https://alphadoctor.com.br/observatorio-conformidade/ro/porto-velho-ro/
